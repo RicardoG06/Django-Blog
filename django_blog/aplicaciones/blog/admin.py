@@ -25,3 +25,4 @@ class AutorAdmin(admin.ModelAdmin):
 # Register your models here.
 admin.site.register(Categoria,CategoriaAdmin) #Recibe 2 parametros , 1 el nombre del modelo y el otro la clase Admin para que se vea mejor la admin. de django
 admin.site.register(Autor , AutorAdmin)
+admin.site.register(Post)
